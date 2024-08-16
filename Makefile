@@ -21,3 +21,5 @@ $(EXE): $(OBJS)
 
 .s.o:
 	$(AS) $(ASFLAGS) $< -o $@
+g:
+	gdb $(EXE)
